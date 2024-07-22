@@ -61,3 +61,15 @@ nav a:hover{
 .padding{
   padding: 30px;
 }
+
+.shadow-container {
+  padding: 20px;
+  background-color: white; /* Ensure background color for visibility */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 8px; /* Optional: Rounds the corners */
+}
+
+.shadow-container-full{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 8px; /* Optional: Rounds the corners */
+}

@@ -1,0 +1,52 @@
+.navbar-container {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding-left: 20px;
+    background-color: skyblue;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+  }
+
+.navLinkBox{
+    display:flex;
+    justify-content: flex-end;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav a{
+    font-size: 20px;
+}
+
+ header nav a.active{
+    background: rgb(113, 201, 236);
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+  }
+  
+header nav a:hover{
+    background-color: rgb(113, 201, 236);
+    color: white;
+    border: 3px solid white;
+    border-radius: 8px;
+    transition: 0.1s;
+  }
+
+  

@@ -1,16 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "../components/NavBar";
-import "./Contact.css";
 
-function Contact() {
+function Work() {
   return (
     <div className="container">
       <NavBar />
       <div className="row padding-top">
-        <h1> Contact</h1>
+        <h1> Work</h1>
       </div>
     </div>
   );
 }
 
-export default Contact;
+export default Work;

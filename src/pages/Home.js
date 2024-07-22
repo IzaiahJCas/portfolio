@@ -16,7 +16,8 @@ function Home() {
           </h1>
           <nav>
             <NavLink to="/about"> About</NavLink>
-            <NavLink to="/contact"> contact</NavLink>
+            <NavLink to="/contact"> Contact</NavLink>
+            <NavLink to="/work"> Work</NavLink>
           </nav>
         </div>
       </div>
