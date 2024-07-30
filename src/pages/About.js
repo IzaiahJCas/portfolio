@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="container">
       <NavBar />
-      <div className="row mb-3 padding-top shadow-container">
+      <div className="row mb-3 padding-top shadow-container offset-4">
         <h1> About Me</h1>
       </div>
 
